@@ -1,6 +1,469 @@
-_, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
+--[[
+This is Actually my First Open Source Script
+Thanks for using Chixs Hub
+Dont forget to Cred me :)))]]
+
+local repo = 'https://raw.githubusercontent.com/wally-rblx/LinoriaLib/main/'
+
+local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
+local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
+local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
+
+local Window = Library:CreateWindow({
+    Title = 'Chixs Hub | Hoop Central 6',
+    Center = true, 
+    AutoShow = true,
+})
+
+local Tabs = {
+    Main = Window:AddTab('Main'),
+    Custom = Window:AddTab('Custom Names'),
+    Credits = Window:AddTab('Credits'),
+    ['UI Settings'] = Window:AddTab('UI Settings'),
+}
+
+local GayBox = Tabs.Custom:AddLeftGroupbox('Custometics')
+local SmokeBox = Tabs.Custom:AddRightGroupbox('Tags')
+
+SmokeBox:AddToggle('MyToggle', {
+    Text = 'YT Tag',
+    Default = false, -- Default value (true / false)
+    Tooltip = 'This is Client Sided btw', -- Information shown when you hover over the toggle
+})
+
+Toggles.MyToggle:OnChanged(function()
+    game:GetService("Workspace").NameTags[game.Players.LocalPlayer.Name].YT.Visible = Toggles.MyToggle.Value
+end)
+
+SmokeBox:AddToggle('LolToggle', {
+    Text = 'SP Tag',
+    Default = false, -- Default value (true / false)
+    Tooltip = 'This is Client Sided btw', -- Information shown when you hover over the toggle
+})
+
+Toggles.LolToggle:OnChanged(function()
+    game:GetService("Workspace").NameTags[game.Players.LocalPlayer.Name].SP.Visible = Toggles.LolToggle.Value
+end)
+
+SmokeBox:AddToggle('Fuck', {
+    Text = 'OW Tag',
+    Default = false, -- Default value (true / false)
+    Tooltip = 'This is Client Sided btw', -- Information shown when you hover over the toggle
+})
+
+Toggles.Fuck:OnChanged(function()
+    game:GetService("Workspace").NameTags[game.Players.LocalPlayer.Name].OW.Visible = Toggles.Fuck.Value
+end)
+
+SmokeBox:AddToggle('Mummm', {
+    Text = 'MP Tag',
+    Default = false, -- Default value (true / false)
+    Tooltip = 'This is Client Sided btw', -- Information shown when you hover over the toggle
+})
+
+Toggles.Mummm:OnChanged(function()
+    game:GetService("Workspace").NameTags[game.Players.LocalPlayer.Name].MP.Visible = Toggles.Mummm.Value
+end)
+
+SmokeBox:AddToggle('Dorsss', {
+    Text = 'MD Tag',
+    Default = false, -- Default value (true / false)
+    Tooltip = 'This is Client Sided btw', -- Information shown when you hover over the toggle
+})
+
+Toggles.Dorsss:OnChanged(function()
+    game:GetService("Workspace").NameTags[game.Players.LocalPlayer.Name].MD.Visible = Toggles.Dorsss.Value
+end)
+
+SmokeBox:AddToggle('HAHAHA', {
+    Text = 'AS Tag',
+    Default = false, -- Default value (true / false)
+    Tooltip = 'This is Client Sided btw', -- Information shown when you hover over the toggle
+})
+
+Toggles.HAHAHA:OnChanged(function()
+    game:GetService("Workspace").NameTags[game.Players.LocalPlayer.Name].AS.Visible = Toggles.HAHAHA.Value
+end)
 
 
-,nil,nil;(function() _msec=(function(l,o,e)local E=o[((-0x70+206)+-#[[I FUCKING HATE FEMBOYS]])];local G=e[l[(0x27234/244)]][l[(0x1f35a/161)]];local O=(8+-#{{};",",'nil',80})/(((325-((630-0x179)+-#'Obfuscated By Obamas Left Nut'))+-#'this is a meme string')-0x4e)local d=(((0x4e45-10041)/0x54)-0x75)-(0x92/146)local D=e[l[(-0x3d+245)]][l[(-#{{};15;15;'nil';15;'nil'}+253)]];local u=(-21+((-#[[lego hax]]+(431-0x109))-136))+((138-0x7f)+-#"Niggabyte")local H=e[l[(36750/0x46)]][l[(-#'go kys go kys go kys'+(0x6fa-956))]]local b=(-#"W4rboy was here"+(-88+0x69))-((8874/(-0x56+(646-0x182)))+-#[[da hood money generator 2022 working free no virus]])local P=((0x6c+((((0x3d-68)+-#[[Negro]])+-0x20)+-#"this is a meme string"))-40)local r=((4632/(((-#'warboy hates you'+(0x499-644))-309)+-#[[W4rboy was here]]))/0x8)local i=(0x2ee/(0x25f-(-#"heil eco mother fuckers"+(6840/(-#'MSC 793z487nhvcgsdfgsudfza9889jgvz56gz56z547684z5g54z948g56z74j56475jzg645z6456 oh wait'+(0xc4e/(6150/0xcd)))))))local M=(0x6f-(112+-#{(function()return#{('LmFKfF'):find("\70")}>0 and 1 or 0 end);76,76,'nil'}))local K=(0x38-(-18+(-#'i bought a boost for this string'+((0x443a/123)+-0x27))))local m=(-#'moonsec got deobfuscated'+((0x22254/((-#[[kys nigga]]+(0xf2+-39))-124))/74))local N=(-62+(-21+(-116+(-#{(function()return#{('mBBkbf'):find("\66")}>0 and 1 or 0 end);1;'nil';'nil'}+207))))local g=(0x1b-((((1746620+-#{(function()return#{('mpfFkB'):find("\102")}>0 and 1 or 0 end);(function()return#{('mpfFkB'):find("\102")}>0 and 1 or 0 end);'nil';","})/218)-4056)/0xac))local j=(-#'arab porn'+(0x29+(-#'I hate black people'+((((-0xf-12)+137)+-#'impulse reel pastebin')-0x62))))local c=((((((-#'0nly segc'+(0x6530/4))-3243)+-#'mf stfu')-1644)/143)+-#'mf stfu')local s=((((((-11197+0x15b2)/0xab)+-21846)/0xdd)+-#[[psx dupe is abd]])+0x76)local F=(-#{65;",";(function()return#{('OOOkMO'):find("\79")}>0 and 1 or 0 end);65;1;37}+10)local B=(-#{115,{};'nil'}+5)local f=(-#'anime is for fags'+(0x84+((-2688/(125+(-77-0x14)))+-#"alivephoneluaLMAO")))local x=(0x16-(-#"papier der afghaner wurde von nice dem bombenleger gefickt"+(281-(-#[[I FUCKING HATE FEMBOYS]]+((-#"if true then return your dad"+(733-0x177))+-105)))))local p=(146/(0xc4-(128+-#{'nil',182,{},182;1})))local k=((-#{{},'}';(function()return{','}end)(),(function()return#{('OolMLP'):find("\108")}>0 and 1 or 0 end);1;{}}+22)/0x8)local L=((-#'impulse loves moonsex'+(0x2a3-((-0x47+903)-0x1dc)))/0x95)local A=l[(0xaa2-1380)];local Y=e[l[(-39+0xdf)]][l[(-#'moonsec got deobfuscated'+(0x261+-124))]];local I=e[(function(o)return type(o):sub(1,1)..'\101\116'end)('ffPbhOBk')..'\109\101'..('\116\97'or'kHLhHpOl')..l[(-#'psx real dupe steal all ur pets no joke'+(564/0x1))]];local S=e[l[(64575/0x7b)]][l[(0x3cc+-22)]];local C=(448/0xe0)-(-#[[impulse was here omg]]+(((-0x2e+268)-139)-0x3d))local U=(((-0x3fdf+8161)/195)+0x2c)-(51-0x31)local z=e[l[(-#"0nly 1337 smashed ur wap"+(40352/0xc2))]][l[(0x37e-498)]];local o=function(o,l)return o..l end local _=(-#"Cock and ball tortue"+(120+-0x60))*((-0x6f+(-#[[Crackzzzz]]+(-48+0x1a8)))/0x40)local v=e[l[(2264-0x482)]];local a=(0x59-87)*((0xf632-(-#'MSC 793z487nhvcgsdfgsudfza9889jgvz56gz56z547684z5g54z948g56z74j56475jzg645z6456 oh wait'+(63358-0x7bf5)))/0xf6)local y=(1087+-0x3f)*((-#[[Niggabyte]]+((-#[[testing this thingy lololollez]]+(-0x64b/179))+147))-0x61)local R=(((-#[[mama mo]]+((((77-0x34)-28)+-#[[elbicho]])-0x34))+150)+-#'Obfuscated By Obamas Left Nut')local t=((0xb8-(210+-0x58))/0x1f)*(115-0x71)local w=e[l[(0x499+-90)]]or e[l[(0x24ea/18)]][l[(0x499+-90)]];local n=((55877+(((-0xd6+88)+-#[[mike litoris]])/2))/0xda)local l=e[l[(-0x43+1321)]];local S=(function(n)local a,e=1,0x10 local l={j={},v={}}local h=-b local o=e+d while true do l[n:sub(o,(function()o=a+o return o-d end)())]=(function()h=h+b return h end)()if h==(_-b)then h=""e=C break end end local h=#n while o<h+d do l.v[e]=n:sub(o,(function()o=a+o return o-d end)())e=e+b if e%O==C then e=U S(l.j,(z((l[l.v[U]]*_)+l[l.v[b]])))end end return H(l.j)end)("..:::MoonSec::..bBfFlLkKoOpPhHmMhLLhMoOlFbhhkoblpbFhHoKlBbpHlomlobBhhkLlMbohfOhlkbMhOOFlHbkhbopllbHhKoBoPblhmolHfhPhLoMlMKOBFhhKkMbppPloHBKpBhPKLmooBoPlLbLLMPoFfhPPLPbbOMFMHHKkbLkMHHKlBbphphlOmfOBBMkmMpohfohlhOkMblOKFhHPKPBOPflBoKBlPblhMphBfbPhLoMoObfhhokpbLOhFoHlKPbhpOllmBKhBhhBLbmhoofMhbLHMopkkHhhkoblpfFhHoKlBkPBlomlobfKPoLLMboHfohokHMhOoFlHPkhbOplLfBOKoBlPblHmoolfbhfLHMlObfhHFklbBOhFOHlKlBOpollmboKBoPLLbMmhLflhbLhMPOlFbhhoobHpbFhHoKlBbpHlomlPpBhPOLlMBohfohlkbFlOoFlHbkmbopklbHhPmBlPblhmoolfbPhLobfObfhhokLbbOhFoHLKBbhpollhfoBBoPlLbLhmPoLfhhobbOlFbhhkoFHpbFHHoKlBbphloMkPHBhPpLlMBohfohlkkBkOoFKHbkhbopLlbHmKoBlhHlhmoolfBPhLoMlOblOhoklbbOhFoHlKbbhHpllmfKhBpPlLBmhookMhbLHMoOkFbhhkoblpmFhHoKlBBphlomloBBhPoLlMbohfohlkbMhOoFlHbKFbopllbHhKoBlPblhmOolfbPhLoMlObfhhoklbbOhFoHlKbbhpollmbKhBoPlLbmhooflhbLMMoOlFbhhkoblpbFhHoKlBbphlomlobBhPoLkMbohfohlkbMhOoFlHBkhbopllfHmKoBlPbBLmHolfbPhhoLKMBOoFlFbbbOhFoHlKbbhpollMhKhBoPlkfmHoofkhbLmMoOlFbHmkOblpFFhHpKlBbphLpfBobfbPoLLMbohfohpKpMhOHFlHbkhbOplllHhKoFBPblhmookfbPhLoMlpHfhhoklbbOhFoHlKbfOpollmbKMBoPlLbmhpLflhbLhMOOlFbhhkoFkpblbHoKkBbpHlompoPBhPoLlboohfOhlkBMhOhlBHbkhboPhlbHHKoBpPPlhmoolFoPhLOMlOBfhhhKBbbOhFomhKbbHpolpmPKhBOPlkomhoOflhbLhMhpBFbhhkoBhpbFHHoKlfhphlhmlofBhPPLlMbpofohOkbMMOoFkHbKfFFplllHhohBlPBlhmHolflhOLoMlOblbhokLbbpblLHlKbbhhbllmBKhBoHbLbMboofkhbLMMoOllhhhkHblpFFhHpKlBkHKlomoobFLPoLLMbOBfohokHMhOoFlmOkhbOpllbmkKoBoPblhmoolfbPhOBMlOlfhhOklbbOhFoBMKbBbpolkmbKhBoPlLmmhooflhBLhMoOlFbhhkoblpbFHHoKlBbhklHmlobBhfohkLOMpOhhokbMhOolkbHkhbopllBHhKoBlPbokmooLfbPhLoMlObfhMpklbbOhFpHlKBbhpoLfmbKhBoPLLbmhooflhbLhMoOKFohhkoblHkFhHoKlBbphloLlhbFkPmLlMbohOPFoHfkLbkOPOhkhbopllbHhKoblmMKMmoolfbPhFpMKObfhhoHKKLMmolmbKbbhpopFFfMkoPfKOBlPmKkhflHBkPKkFlhhkoblbfPLlhHOomPblomlobKMfbPLkfpmfohlkbbmHLFlHFkhbmpllbHhKolbPblMmooKfbPHLoMpOLfhhPklbLOhFOHlKBbhphLBmbKhBoPOLbmHoofohHLhMoOlFohhkOblPfKOHoKKBbPflomlobBhmlLlMFohfPhlkBMhOoKMHbkMbopklbHhKofkPBlhmPolfFPhLoMlpfFbhokobbpbFoHlKbBmpollmLKhBPPlLbmhooflhbkfMoOlFbhhkoBkpbFhHMKlBFphlomlolBhPoLOMbppfohLkbMhhfFlHOkhbhpllbHhopFKPbLkmookfbPhLoBlObfhHfklbpOhlbHlObbhpolMmbKhBoPOLbmhooflhHLhbbOlFbhhkoblpblpHoKhBbphlomlobBhhFLlMmohfphlobMhOoFMHbKKbopPlbHhKoBlPPlhmpolffPhLoMlObFKhokMbbOMFoMlKbbhPFllmPKhBOPlLbmhoofmhbLmMoOkFbhhkoblplFhmBKlBpphlomlobfLPoLKMbomfomlkbMhOPFlHOkhbOplllbbKoBOPbLpmooLfbhmOLMlOLfhhmklbbOhFomhKbBBpolLmbobBoPlOPmhohflhfLhMoOlFbHpkoblpbFHHoKlBbphPlmlobBhPFLpMbohfoBlhhLHBBOOlfPoBfpllbHhhPoOffPflOmKoLbFhHLHfKFFhoklbbHMpBloHOokbHPfLmoBBoPlLbkbmOokfhhBHppfFbhhkokPbBpOFHmKKLBpPPlOpMolfhhokbMBFfhlkbMhHMOOllPMkHBkPklLHPKOpPLLmoolfbFFPOkbMPOMFohOkLbbbBHPKbbhpooKlMmmKHMPhLLLoFfhhbLhMomKOLlbPPkKbMpmFHKLBLphlomlHFKMfKhkLLoHfhhlkbMhMMOLFHHBffPOlbHhKoKoBOPMlPMFOffbokLPMKLPfMPLlLmlkplOhpolMHpMhfobBoPlLbkbMBOBfLfLbBOlFbhhPLkLbKpplBmooLBbpHMmoLBhPoLlFFMloHFKHlHmpKFlHbkhlOboplfBmmKOBmhbFbmLomfbhlLObfOBhmklbbOhOPlFHmkMbOPoHPoBBoPlLbFlMKOffLHLpoOhFbhhkoloboOkfmhhoOBBPfhkoPBhPoLlFhMPoPfLhhlhblOLlOHBKppLloHhKoBlMfPPlhMHkKFLhpkFbmFkhoklbbmfpBlkHLLMbHPkLkmBopPLLLmhooflbHhPkkMOpOMMkPblpbFhlkHOoKMolhmlobBhbbPOLBMbfOhpkbMhOooBFMHpKFbOPOpLKhBlPblhlPmhoBfmmMMmObfhhohFLMbMOHFKmLKmbHpOLBBFBPPlLbmhmOOlfOMFbfOlFbhhHlKFbBpblPmoofBLPklPhhflPoLlMbHlOhFoHblhbKpKllmpBFpllbHhPPKHflPLkfmOomfMhbLHbbbmHfklbbOhoFFHHFKKMoPblBMLKHfkFfbbooflhbpMLHboobFmHBKBbBpmLBhlKBBmPhfKhkomBOhBLLHofHhlkbMhHPpbFMmFKkFPlOHhKoBlMfPPlhMHkkfPhpLKMLHhhPklbbOhKMFOmlbKpmllmbKhObflPFlHMlObLKkOMoOlFbfHHokHhMPFFHHkKoBPPKlMMFlPBmmPMlohfohlpokBMOOoFLkMbopllblbmHoBmFLFmoolfbffhpkFMHKmbMpkhOpoFoHlKblHbhpofLMlohfkPBfMmOOKfobhboOlFbhhPbKObHOHlkmFKOBbOpLFmMObboPLkfbbHPhlkbMhOoFlHbKlloMbLoHhKoBlfbpHLPMooLBmhBkfPmoMFKHBfMbmOOlPOMoBMFKKBKhfofMOPLMbooflhbhFLObBOLhKKOblpbFhfpHOobBoPBlKmBObBHPolFbbOKFkhBkFMHBkHOkhboplpKFHmLKOfFPBLkMKoLoLkBMlObfhbPhhkBbmOOFKmlKBBpFMmkKhBoPlhFLlmOoofMHFpoOMFbhhkolLblpOlBmfkfBBPLLFMloBPFLPMbohfobhHlKbboKPFLmbokpHlbHhKoLkBMPbkBhpoMfmPPLOMLFBhoklbbbhOPFLHhKoMllKmbKhBoMOpFFhmHfHhbLhMomlOhfHmBkOBfoFlHHHfpPblomlobKmFBhoLLkmfphlkbMhbKpKkKKlbopllbFmmBooHmpmkbMFOfbokbMlObfhBbHOkHMHpklFHOKbHPLbmbKhBoBFpfkkMPOKbBPPLKHhOllBHPLbplFhHoKlLFbHPPlhlOfFPoLlMbMbOBFKhFkPbpOokKKfbopllbBHmLoFfLPpLhPKfKPhLoMlMopbFhHlFphPkKhMKpbhpolllOmMolBKPhLPMPOOFfhBKkOpFbhhkokHbmpMFHmkollFLFmlobBhblPOLBMboHFkhfkPMOpkFlOMbmpllbHhmPooffPLLkmPoLhbLoMlObKofHhpKlbBFHHlKbbhMppHlKmlohmKLPmhooflfhhBLOMoOLFmHPKobBPblPhbBophlomlhOopfPhoLBMpoPfOMKboOoFlHbPLKkBppMlKHHkKBLPmLmmOOfmMkKMlObfhfhHKkkPhpBlKObKlbOPklHmoKHfKhFBMoMflhbLhLMMOplFfhHKfBkPpmlKlBbphObLoMlohMMPOklhHOPFHhmLMloFoHbkhbommPFlPmkhlPBlhmooloBboLhMlObfhBohLKfBbmompKbbhpoOlLfmPohBOPFkbmHoombHFkBboOomhPLKFbMppfPHOKFLhlMmlobBhbmPOLFbbOKFkOFhLOPFlHbkhLlbOpKfoobBlPblhfPmLohfoPpLLMFOKppkHbbOhFofPHMKmBFPKLbHHKPBOFfmHooflhbhhllOoFbhhkokPbBpOFHLkBPphlomlmFolBHPKLPmMoOFbhhkBbpkKHokhboplOFFMmpKOBmOFLHmHLFhfLoMlObKmfHHBkMBbOHPkKLbhpollfkmPopBKPLOhOBflhbLhlMMLOhFKHPKlbLpBFhFHBmphlomlhmoBfMhoLMMpOPFFhkKbmfoKBMPpFPpolbHhKoKkBBPMLPPKkLPhLoMlMopbFhHlKFHkkKbFmfkHBMKflKmLohBhhLlmMHOKfLhmLPbFOmlbhHKfBlkpFPmFKHHPomBKHokMmKOhLMMPOobKhLkpbhpkFBHoFmHFpHFHmBofHMOMlHmKOffBhhlKblOmFBHfkKOKFhHlKbbhBopLLfMbBOPhLbmhookkfMhbKBHPpOFmHKbLpOFhHoKloKBPPplMMFohBOPKLLMBfHhlkbMhmHKoFOHOFpMblFHhKoBlMBOhFBKMfOPhLoMlMFOlfOHkkBMMphFOmfKBPBllmbKhoMBOPfLlMKOFfPpLFhfPFphhkoblmppMlKmfLlBBpPLFmloBBHkbMbohfoBoHfkLMMOPFLHmlHBppLlpmhpPPBlhmoolKMfBLhMlObfhBbhOkBbbomHlKbbhppLpmbKhBoPkLbmhooFkMmLhMoOllhhhkoblpbFhHoKlBbphlomlobBhPoLlMBohfohlkbMhppFlHbkHbomFlbHhKofkPblhmOoloPPhLoMlPkfhhokLbbpLFoHLKbBopolomHKhBoPlLOmhoOflhbkpMoOlFbhHkoblpbFmmmKlBBphlhmlobBhhpKHMboHfoHKkbMhOoFlbOkhbOpllbHhKoBlhflHmookfbbMLoMlObfmHmklbFOhFOHlKbbhpoLOmbobBoPLLbmhooflhbLhMHOlFFhhkoblPfFhHoKpBbhplomlobBhPoLlMLohfphlkfMhOmFlHbKbbomKlbHHKoBOPbLbMLolfbPhOPMlOBfhhoombbpBFoHKKbbhpoLkBHKhBmPlLlmhooflmbkLMoOpFbHfkoBLpbFhBbKlBLphlpmlofBhPmOFMbObfobKkbMHOoFOHbKbBLpllbHhPPBlPBlhmopmfbhBLoMKObfhhoKkFHOhFmHlKlbhpollbboLBoPpLbMfookOhbLhFbOlFLhhkpblpfFhHmPFBbPblofKobBHPoLOMbObFLhlkbMhHPFlHBkhbohmlbmBKoBKPblhmookFkPhLmMlObfhhoklbbHlFoHOKbbmpolkmbofFoPlLLmhhpflhBLhMoOlFlHOkoblpbKmHoKLBbphKfmloLBhPPLlMbohFpMPkbbfOoKPHbkhboPklbHhKMBlHplhmoolFfPhLoMhObolhoklbbOhFoHlKKbhpMllmoKhBmPlLbMFooLBhbLHMoOlFbHbKLblpbFhbLKlBBphlhMBobBhPoofMboHfoHkkBMhOMFlFbkhbopllbboKoBpPbLfmooPfbhfLHMlOkfhMpklbBOhFOHlKlBOpollmbpmBoPLLbMmhLflhkLhlkOlFbhhkoFhpblBHoKkBbpmlompPMBhPhLlFFohfOhlkLMhOhlBHbkhbomKlbHHKoBlHplhmHolfFPhLoMlpfkOhokpbbmFFoHlKbfhPBllmkKhBmPlkPmhooLhhbkBMoOkFbhmkobpHMFhHhKlLFphlOmloLBhPhkBMbohfobKkbMHOoFlMpkhbHpllFHhKoBlhfKFmoopfbbFLoMlOblhhoklbkOhFmHlpPbhpollmboBBoPkLbmmooflhbLhMhOlFLhhkoblplFhHoKlBbmMlomLobBhhfLlMlohfohlkbMhOokHHbKbbopLlbHhKoBpPLlhmholkkPhLOMlOBfhhhKBbbOhFoBpKbbHpolomHKhBoPlOmmhoOflMbofMoOOFbMpkofhpblmbBKlBLphOOmlobBhPokfMbohfohLkbMhOolkbHkhbHplKoHhKoBlPkkkmoopfbPMLoMLObfHhoklBHOhFoHlKfbhpollmbpmBoPOLbmmoofLhbkbbLOlFbhhPBblpBFhmpPBBbPBlobfobBhPokkFhohfmhlObMhOoFlMbkhbopplbmfKokFPbLmmoolfoPhPOMlObfhhoklbbpfFoHhKbbhpollmbKhBHPlLbmhopflhbLhMoOOFbhHkobLpbFhHoKlBbphlOmlobBh");local H=(6300/0x3f)local h=64 local e=b;local l={}l={[(142/0x8e)]=function()local d,b,l,o=D(S,e,e+u);e=e+t;h=(h+(H*t))%n;return(((o+h-(H)+a*(t*O))%a)*((O*y)^O))+(((l+h-(H*O)+a*(O^u))%n)*(a*n))+(((b+h-(H*u)+y)%n)*a)+((d+h-(H*t)+y)%n);end,[(0x41-63)]=function(o,o,o)local o=D(S,e,e);e=e+d;h=(h+(H))%n;return((o+h-(H)+y)%a);end,[(0x64-97)]=function()local o,l=D(S,e,e+O);h=(h+(H*O))%n;e=e+O;return(((l+h-(H)+a*(O*t))%a)*n)+((o+h-(H*O)+n*(O^u))%a);end,[(38-0x22)]=function(l,o,e)if e then local o=(l/O^(o-b))%O^((e-d)-(o-b)+d);return o-o%b;else local o=O^(o-d);return(l%(o+o)>=o)and b or U;end;end,[(0x41+-60)]=function()local e=l[(0x75+-116)]();local o=l[((113-0x63)+-#'Bush Did 9 11')]();local k=b;local h=(l[((3836/0x89)+-#'keno 0347 is a nerdy fag')](o,d,_+t)*(O^(_*O)))+e;local e=l[(88-(0xee-154))](o,21,31);local o=((-b)^l[(672/0xa8)](o,32));if(e==U)then if(h==C)then return o*U;else e=d;k=C;end;elseif(e==(a*(O^u))-d)then return(h==U)and(o*(d/C))or(o*(U/C));end;return G(o,e-((n*(t))-b))*(k+(h/(O^R)));end,[(-#[[free pornhub premium]]+(2288/0x58))]=function(o,O,O)local O;if(not o)then o=l[(0x1a-25)]();if(o==U)then return'';end;end;O=Y(S,e,e+o-b);e=e+o;local o=''for l=d,#O do o=A(o,z((D(Y(O,l,l))+h)%n))h=(h+H)%a end return o;end}local function S(...)return{...},v('#',...)end local function y()local k={};local P={};local o={};local f={k,P,nil,o};local e={}local m=((0x3921/(0x1e8-293))+-#[[0nly 1337 smashed ur wap]])local n={[(-#'0 divided by 0'+(0x9f6/150))]=(function(o)return not(#o==l[(102-0x64)]())end),[(46+-0x2a)]=(function(o)return l[((151-0x84)+-#"0 divided by 0")]()end),[(247/0xf7)]=(function(o)return l[(-#"Negro"+(0x226/50))]()end),[((44-0x25)+-#[[algebra]])]=(function(o)local e=l[(-#[[0nly was here mf]]+(0x9c-134))]()local o=''local l=1 for h=1,#e do l=(l+m)%n o=A(o,z((D(e:sub(h,h))+l)%a))end return o end)};for o=d,l[(-#[[Niggabyte]]+((19760/0x26)/0x34))]()do P[o-d]=y();end;f[3]=l[(0x24-(-0x19+59))]();local o=l[(-#'papier ist ein kleiner schwanz lutscher'+(-122+0xa2))]()for h=1,o do local o=l[(0x4c/38)]();local l;local o=n[o%(-#'impulse loves moonsex'+(0xb7-137))];e[h]=o and o({});end;for n=1,l[(46/0x2e)]()do local o=l[(57-0x37)]();if(l[(-#'nico der hurensohn'+(0x5a+-68))](o,b,d)==C)then local a=l[(-0x65+105)](o,O,u);local h=l[(-0x59+93)](o,t,O+t);local o={l[(-0x65+104)](),l[(126-0x7b)](),nil,nil};local f={[(-#'ÑÑÑÑÑÑÑ'+((0x11c6/50)-84))]=function()o[M]=l[(-92+0x5f)]();o[F]=l[(-#[[yeet]]+(0x13b/45))]();end,[(117/0x75)]=function()o[r]=l[(-0x7f+128)]();end,[(54-0x34)]=function()o[r]=l[(0x78-119)]()-(O^_)end,[(-#'10 black dicks in your mouth'+(110-0x4f))]=function()o[K]=l[(98/0x62)]()-(O^_)o[F]=l[(-0x1c+31)]();end};f[a]();if(l[(-0x28+44)](h,d,b)==d)then o[B]=e[o[x]]end if(l[((-0x10+36)+-#"0nly was here mf")](h,O,O)==b)then o[r]=e[o[K]]end if(l[(0x328/202)](h,u,u)==d)then o[s]=e[o[g]]end k[n]=o;end end;return f;end;local function U(l,t,H)local h=l[O];local e=l[u];local a=l[b];return(function(...)local y={};local _=h;local D=S local l=e;local S=v('#',...)-d;local h=b;local e=b e*=-1 local u=e;local n={...};local C={};local e={};local a=a;for o=0,S do if(o>=l)then y[o-l]=n[o+d];else e[o]=n[o+b];end;end;local l=S-l+b local l;local n;while true do l=a[h];n=l[(0x1f-30)];o=(5089152)while((0xbc-138)+-#[[arab porn]])>=n do o-= o o=(522351)while n<=(0x92+-126)do o-= o o=(4597649)while(1035/0x73)>=n do o-= o o=(572570)while(148/0x25)>=n do o-= o o=(6137194)while n<=(165/0xa5)do o-= o o=(1755141)while n>((0x120c/231)+-#"Cock and ball tortue")do o-= o e[l[L]]=l[M];break end while(o)/((-#'Crackzzzz'+(996-((0xbcb8/88)+-#"nicowashere"))))==3909 do e[l[x]]=t[l[P]];h=h+b;l=a[h];e[l[f]]=#e[l[M]];h=h+b;l=a[h];t[l[m]]=e[l[L]];h=h+b;l=a[h];e[l[B]]=t[l[m]];h=h+b;l=a[h];e[l[L]]=#e[l[M]];h=h+b;l=a[h];t[l[r]]=e[l[B]];h=h+b;l=a[h];do return end;break end;break;end while(o)/(((0x9b4+-31)+-#'null'))==2506 do o=(2507219)while(0xfe/127)>=n do o-= o e[l[p]]={};break;end while 979==(o)/((((0x638fd/155)+-#[[keno 0347 is a nerdy fag]])+-46))do o=(1937664)while((147-0x7b)+-#[[impulse reel pastebin]])<n do o-= o local d;local n;local o;e[l[f]]=l[m];h=h+b;l=a[h];e[l[B]]=l[i];h=h+b;l=a[h];e[l[x]]=#e[l[M]];h=h+b;l=a[h];e[l[k]]=l[m];h=h+b;l=a[h];o=l[f];n=e[o]d=e[o+2];if(d>0)then if(n>e[o+1])then h=l[M];else e[o+3]=n;end elseif(n<e[o+1])then h=l[r];else e[o+3]=n;end break end while 3364==(o)/(((0x4b7-620)+-#[[panzerfaust]]))do e[l[x]]=(l[P]~=0);break end;break;end break;end break;end while(o)/((0xa5e6/(4932/0x24)))==1847 do o=(108872)while n<=(1458/0xf3)do o-= o o=(1488000)while n>(39+(-0x27+5))do o-= o local h=l[p];local o=e[l[i]];e[h+1]=o;e[h]=o[l[N]];break end while(o)/((2527+-0x7f))==620 do if not e[l[f]]then h=h+d;else h=l[P];end;break end;break;end while 1756==(o)/((-#"testing this thingy lololollez"+(0xc2+-102)))do o=(14273272)while(-#'impulse was here omg'+(0x6f-84))>=n do o-= o local o=l[k]local h,l=D(e[o](w(e,o+1,l[m])))u=l+o-1 local l=0;for o=o,u do l=l+b;e[o]=h[l];end;break;end while(o)/((638716/0xad))==3866 do o=(6168984)while(0x128/37)<n do o-= o e[l[x]]=e[l[P]][l[N]];break end while(o)/((((51-0x56)+2611)+-#"cilertedcool"))==2406 do local o=l[x]e[o]=e[o](w(e,o+b,l[P]))break end;break;end break;end break;end break;end while(o)/((0x4a0ab/175))==2653 do o=(7151166)while(0x770/136)>=n do o-= o o=(11943792)while(76+-0x41)>=n do o-= o o=(2732454)while((68-0x31)+-#[[kys nigga]])<n do o-= o if(e[l[L]]==e[l[c]])then h=h+d;else h=l[m];end;break end while 2727==(o)/((-#'arab porn'+(0x3b3d/15)))do e[l[x]]=(l[m]~=0);h=h+d;break end;break;end while 4046==(o)/(((678756/0xe5)+-#[[Lana Rhoades]]))do o=(262295)while(-#"ÑÑÑÑÑÑÑ"+(0x1067/((0x23b-341)+-#[[kys nigga]])))>=n do o-= o local o=l[p];local h=e[l[i]];e[o+1]=h;e[o]=h[l[j]];break;end while 95==(o)/((0xb15+-76))do o=(2972922)while(-#"Negro"+(0x114c/246))<n do o-= o do return end;break end while(o)/((-#'papier der afghaner wurde von nice dem bombenleger gefickt'+(0x71e58/214)))==1401 do h=l[r];break end;break;end break;end break;end while(o)/((0xe3b-(0xec0-1915)))==4013 do o=(112332)while n<=(2499/0x93)do o-= o o=(4841872)while(-#'warboy hates you'+(31/0x1))>=n do o-= o if not e[l[L]]then h=h+d;else h=l[P];end;break;end while 1904==(o)/((-0x7e+2669))do o=(3394087)while n>((1176/0x38)+-#[[balls]])do o-= o e[l[k]]();break end while 853==(o)/((-#[[10 black dicks in your mouth]]+((969765-0x76636)/121)))do local o=l[k]local h,l=D(e[o](w(e,o+1,l[K])))u=l+o-1 local l=0;for o=o,u do l=l+b;e[o]=h[l];end;break end;break;end break;end while 1702==(o)/((0x40b6/251))do o=(5606254)while(0xa1-143)>=n do o-= o t[l[P]]=e[l[L]];break;end while 2021==(o)/((0xb48+-114))do o=(10014290)while n>(104-0x55)do o-= o h=l[m];break end while(o)/((-#[[sex in fortnite real]]+(3925+-0x1f)))==2585 do local o=l[B]e[o](e[o+d])break end;break;end break;end break;end break;end break;end while 1143==(o)/((0x11121/153))do o=(3508080)while n<=((((10788/0x3a)+-#[[when the he went where when he where where when the he when ther wher he then here went]])+-0x3b)+-#'send nudes')do o-= o o=(1245330)while(0x44c/44)>=n do o-= o o=(3817308)while n<=(-#[[Niggabyte]]+(0x9b-124))do o-= o o=(9660750)while(0x57-66)<n do o-= o e[l[B]]=U(_[l[M]],nil,H);break end while 2750==(o)/((0xc01e0/224))do local n;local o;e[l[k]]=(l[i]~=0);h=h+b;l=a[h];e[l[B]]=e[l[K]];h=h+b;l=a[h];e[l[p]]=H[l[M]];h=h+b;l=a[h];o=l[L]e[o]=e[o](e[o+d])h=h+b;l=a[h];n=e[l[s]];if not n then h=h+d;else e[l[p]]=n;h=l[M];end;break end;break;end while(o)/(((0xbf2-1549)+-75))==2662 do o=(6846795)while(0xa2-139)>=n do o-= o e[l[f]]=U(_[l[i]],nil,H);break;end while(o)/(((3811+-0x56)+-#"dies of cringe"))==1845 do o=(1848886)while n>((226-0xae)+-#'10 black dicks in your mouth')do o-= o e[l[k]]=#e[l[m]];break end while 3026==(o)/(((-0x5c+-34)+737))do e[l[k]][e[l[P]]]=e[l[c]];break end;break;end break;end break;end while(o)/((-0x63+604))==2466 do o=(1226632)while(140+-0x71)>=n do o-= o o=(2284848)while(-#[[MSC 793z487nhvcgsdfgsudfza9889jgvz56gz56z547684z5g54z948g56z74j56475jzg645z6456 oh wait]]+(190+-0x4d))<n do o-= o e[l[k]]=e[l[m]]%l[F];break end while 2322==(o)/((-0x4e+1062))do local n=_[l[K]];local b;local o={};b=I({},{__index=function(e,l)local o=o[l];return o[1][o[2]];end,__newindex=function(h,l,e)local o=o[l]o[1][o[2]]=e;end;});for b=1,l[N]do h=h+d;local l=a[h];if l[((133-0x5d)+-#'psx real dupe steal all ur pets no joke')]==29 then o[b-1]={e,l[P]};else o[b-1]={t,l[i]};end;C[#C+1]=o;end;e[l[B]]=U(n,b,H);break end;break;end while 2893==(o)/((35192/0x53))do o=(945210)while((7757-0xf51)/0x89)>=n do o-= o e[l[k]]=e[l[i]]-e[l[c]];break;end while 735==(o)/((0xa3d-1335))do o=(4134645)while n>(84+-0x37)do o-= o e[l[f]][e[l[i]]]=e[l[F]];break end while(o)/((-#[[legend says i was here]]+(84889/0x43)))==3321 do e[l[p]]=e[l[r]];break end;break;end break;end break;end break;end while 3110==(o)/((173712/0x9a))do o=(11861160)while n<=(93-(-76+0x86))do o-= o o=(737800)while n<=(0x76+-86)do o-= o o=(8954968)while n>(0x1648/(0x185-205))do o-= o if e[l[k]]then h=h+b;else h=l[i];end;break end while 2662==(o)/((6851-0xd9f))do if(e[l[p]]~=l[c])then h=h+d;else h=l[i];end;break end;break;end while 2380==(o)/((-#"freerobuxphone"+(22680/0x46)))do o=(3884325)while n<=((-#"papier ist ein kleiner schwanz lutscher"+(0x127-190))/0x2)do o-= o if(e[l[B]]~=e[l[s]])then h=h+d;else h=l[r];end;break;end while(o)/((176880/0xb0))==3865 do o=(555300)while(-#'impulse was here omg'+(0xa3+-109))<n do o-= o local t;local n;local K;local o;e[l[f]]=H[l[r]];h=h+b;l=a[h];e[l[x]]=e[l[r]][l[c]];h=h+b;l=a[h];o=l[x];K=e[l[P]];e[o+1]=K;e[o]=K[l[j]];h=h+b;l=a[h];e[l[L]]=e[l[i]];h=h+b;l=a[h];e[l[B]]=e[l[P]];h=h+b;l=a[h];o=l[k]e[o]=e[o](w(e,o+b,l[r]))h=h+b;l=a[h];o=l[p];K=e[l[m]];e[o+1]=K;e[o]=K[l[c]];h=h+b;l=a[h];o=l[x]e[o]=e[o](e[o+d])h=h+b;l=a[h];n={e,l};n[d][n[O][B]]=n[b][n[O][c]]+n[d][n[O][i]];h=h+b;l=a[h];e[l[f]]=e[l[M]]%l[g];h=h+b;l=a[h];o=l[x]e[o]=e[o](e[o+d])h=h+b;l=a[h];K=l[m];t=e[K]for o=K+1,l[c]do t=t..e[o];end;e[l[k]]=t;h=h+b;l=a[h];n={e,l};n[d][n[O][p]]=n[b][n[O][N]]+n[d][n[O][m]];h=h+b;l=a[h];e[l[f]]=e[l[r]]%l[F];break end while 3702==(o)/((336-0xba))do local n=_[l[r]];local b;local o={};b=I({},{__index=function(e,l)local o=o[l];return o[1][o[2]];end,__newindex=function(h,e,l)local o=o[e]o[1][o[2]]=l;end;});for b=1,l[c]do h=h+d;local l=a[h];if l[((0xdd6/161)+-#[[this is a meme string]])]==29 then o[b-1]={e,l[P]};else o[b-1]={t,l[P]};end;C[#C+1]=o;end;e[l[L]]=U(n,b,H);break end;break;end break;end break;end while(o)/((-#[[howtodumpscript]]+(397290/0x66)))==3057 do o=(1247855)while(-#"free bobux no skem"+(0xb3+-123))>=n do o-= o o=(7200)while n<=(-#"Cock and ball tortue"+(174-0x76))do o-= o local o=l[p];local n=e[o+2];local b=e[o]+n;e[o]=b;if(n>0)then if(b<=e[o+1])then h=l[i];e[o+3]=b;end elseif(b>=e[o+1])then h=l[P];e[o+3]=b;end break;end while(o)/((170-0x86))==200 do o=(460550)while(183-0x92)<n do o-= o local o={e,l};o[b][o[O][L]]=o[O][s]+o[O][M];break end while(o)/((-#'bigchungus'+(0xf01+-56)))==122 do e[l[f]]=(l[r]~=0);h=h+d;break end;break;end break;end while 707==(o)/(((-0x37+1849)+-#[[Obfuscated By Obamas Left Nut]]))do o=(5029002)while(3783/0x61)>=n do o-= o local o;e[l[x]]=H[l[i]];h=h+b;l=a[h];e[l[x]]=e[l[M]][l[F]];h=h+b;l=a[h];o=l[B]e[o]=e[o](e[o+d])h=h+b;l=a[h];e[l[f]]=e[l[m]];h=h+b;l=a[h];h=l[M];break;end while 2309==(o)/((4417-0x8bf))do o=(11649880)while n>(-#'if true then return your dad'+(161+-0x5d))do o-= o H[l[i]]=e[l[L]];break end while(o)/((554422/0x9e))==3320 do local h=l[K];local o=e[h]for l=h+1,l[F]do o=o..e[l];end;e[l[f]]=o;break end;break;end break;end break;end break;end break;end break;end while 2742==(o)/((3732-0x754))do o=(8166598)while n<=(147-0x55)do o-= o o=(3230337)while(0xd6-163)>=n do o-= o o=(7139275)while n<=(2162/0x2f)do o-= o o=(2667072)while n<=(-64+0x6b)do o-= o o=(689522)while n>(0x13da/121)do o-= o if(e[l[f]]~=e[l[F]])then h=h+d;else h=l[r];end;break end while(o)/((105562/0x2f))==307 do e[l[k]]=e[l[M]];break end;break;end while(o)/((0x33340/113))==1437 do o=(2618740)while(0x1e98/178)>=n do o-= o e[l[p]]=e[l[P]][e[l[g]]];break;end while(o)/((-85+((168256/0x40)+-#'null')))==1031 do o=(8271944)while n>(-#[[sussy]]+(-0x1f+81))do o-= o local o={e,l};o[d][o[O][x]]=o[b][o[O][s]]+o[d][o[O][i]];break end while 3532==(o)/(((0x128e-2388)+-#'Cock and ball tortue'))do H[l[r]]=e[l[p]];break end;break;end break;end break;end while(o)/((1997/0x1))==3575 do o=(4048121)while n<=((392-0xed)-0x6b)do o-= o o=(2923200)while n>(-#'alivephoneluaLMAO'+(162-((-0x7a+240)+-#"33 cocks in my mouth")))do o-= o local h=l[m];local o=e[h]for l=h+1,l[s]do o=o..e[l];end;e[l[p]]=o;break end while 2400==(o)/((1263+-0x2d))do e[l[x]]();break end;break;end while 2767==(o)/((0x29135/115))do o=(3739125)while n<=(86+-0x25)do o-= o local o=l[x]e[o]=e[o](e[o+d])break;end while(o)/((-#[[papier der afghaner wurde von nice dem bombenleger gefickt]]+(5288-0xa87)))==1475 do o=(8624448)while n>(-#"Gay porn"+(0xd1-151))do o-= o local o=l[B]e[o]=e[o](w(e,o+b,u))break end while 3906==(o)/((-0x44+(-#"if true then return your dad"+(4685-0x94d))))do local o=l[f]e[o](e[o+d])break end;break;end break;end break;end break;end while 2427==(o)/(((0x588+-72)+-#"Big black men"))do o=(5045320)while(218-0xa2)>=n do o-= o o=(846392)while(0x49+-20)>=n do o-= o o=(260022)while(138-0x56)<n do o-= o local o=l[p];local b=e[o]local n=e[o+2];if(n>0)then if(b>e[o+1])then h=l[K];else e[o+3]=b;end elseif(b<e[o+1])then h=l[i];else e[o+3]=b;end break end while(o)/((0x1574a/97))==287 do if(e[l[L]]==e[l[s]])then h=h+d;else h=l[m];end;break end;break;end while(o)/(((0xdf8-1815)+-#"balls"))==482 do o=(603408)while n<=(164+-0x6e)do o-= o local o={e,l};o[d][o[O][p]]=o[b][o[O][s]]+o[d][o[O][P]];break;end while 3868==(o)/((416-0x104))do o=(3622508)while(((566-0x14d)-0xa1)+-#'anime is for fags')<n do o-= o local o=l[f]e[o]=e[o](e[o+d])break end while 2042==(o)/((0x14ca0/48))do local o;local n;e[l[k]]=H[l[M]];h=h+b;l=a[h];e[l[B]]=l[r];h=h+b;l=a[h];e[l[k]]=l[K];h=h+b;l=a[h];n=l[m];o=e[n]for l=n+1,l[g]do o=o..e[l];end;e[l[B]]=o;h=h+b;l=a[h];if e[l[x]]then h=h+b;else h=l[r];end;break end;break;end break;end break;end while 2435==(o)/((0x24ed8/(-#"sussy"+(182-0x68))))do o=(8499650)while(0x1321/83)>=n do o-= o o=(7966125)while n<=(175+-0x76)do o-= o e[l[B]]=(l[r]~=0);break;end while(o)/((-#[[impulse 2022]]+(-0x54+2521)))==3285 do o=(6399200)while(-0x20+90)<n do o-= o if e[l[p]]then h=h+b;else h=l[K];end;break end while 3040==(o)/(((-0x36+2167)+-#"lego hax"))do e[l[B]]=t[l[r]];break end;break;end break;end while 3890==(o)/((-0x53+2268))do o=(4606116)while n<=(960/0x10)do o-= o local o=l[k]e[o]=e[o](w(e,o+b,u))break;end while 1348==(o)/((550137/0xa1))do o=(4994974)while(197-0x88)<n do o-= o H[l[i]]=e[l[B]];h=h+b;l=a[h];e[l[L]]={};h=h+b;l=a[h];e[l[L]]={};h=h+b;l=a[h];H[l[r]]=e[l[L]];h=h+b;l=a[h];e[l[k]]=H[l[m]];h=h+b;l=a[h];if(e[l[L]]~=l[g])then h=h+d;else h=l[r];end;break end while(o)/((0xe75-1882))==2746 do e[l[f]]=H[l[m]];break end;break;end break;end break;end break;end break;end while 3242==(o)/((0x608db/157))do o=(4081100)while n<=(0x7f+-55)do o-= o o=(5997896)while(-#[[warboy hates you]]+(158+-0x4b))>=n do o-= o o=(15603904)while n<=(-81+0x91)do o-= o o=(5316194)while(-0x42+129)<n do o-= o e[l[f]]=e[l[i]][e[l[N]]];break end while 2942==(o)/((0x5e68a/214))do local o=e[l[c]];if not o then h=h+d;else e[l[B]]=o;h=l[M];end;break end;break;end while 4072==(o)/(((0x1708d8/196)-3870))do o=(23363)while n<=(142+-0x4d)do o-= o e[l[B]]=e[l[r]]%l[F];break;end while(o)/((-120+0xb5))==383 do o=(4583040)while(0xb1+-111)<n do o-= o local o=l[k]e[o]=e[o](w(e,o+b,l[P]))break end while 2387==(o)/((487680/0xfe))do local o={e,l};o[b][o[O][p]]=o[O][N]+o[O][M];break end;break;end break;end break;end while 2987==(o)/(((2109+-0x59)+-#[[mike litoris]]))do o=(3570239)while(-31+0x64)>=n do o-= o o=(9133536)while n>(4216/0x3e)do o-= o e[l[k]]=e[l[K]]-e[l[F]];break end while(o)/(((2913+-0x38)+-#"Crackzzzz"))==3207 do e[l[k]]=#e[l[P]];break end;break;end while 2173==(o)/((187302/0x72))do o=(6468000)while n<=(-#"sussy"+(0x4b/1))do o-= o t[l[K]]=e[l[f]];break;end while(o)/(((0x6ea94/188)+-#[[monkey mode]]))==2695 do o=(4856684)while n>((0x4a98/248)+-#[[Ur mom]])do o-= o e[l[f]]=H[l[m]];break end while 1396==(o)/((7056-0xdf9))do if(e[l[f]]~=l[c])then h=h+d;else h=l[K];end;break end;break;end break;end break;end break;end while 1850==(o)/((0x11b3-2325))do o=(1502550)while(-#"0nly segc"+(19436/0xe2))>=n do o-= o o=(6206585)while(-#"If LocalPlayer equals Dumbass then while true do end"+(0x157-217))>=n do o-= o o=(2556812)while(98+-0x19)<n do o-= o e[l[k]]=e[l[P]][l[N]];break end while 4052==(o)/(((775+-0x7b)+-#"this is a meme string"))do e[l[k]]=t[l[M]];break end;break;end while(o)/(((-58+(7767-0xf58))+-#"Gay porn"))==1645 do o=(2798385)while n<=(-0x29+116)do o-= o do return e[l[f]]end break;end while 2841==(o)/((-#'10 black dicks in your mouth'+(0x1a372/106)))do o=(2049549)while n>(-#'holy shit'+(-22+(-0x6f+218)))do o-= o e[l[x]]={};break end while 779==(o)/((0x983bb/237))do local n;local i,O;local d;local o;e[l[k]]=H[l[M]];h=h+b;l=a[h];o=l[f];d=e[l[r]];e[o+1]=d;e[o]=d[l[F]];h=h+b;l=a[h];e[l[k]]=l[P];h=h+b;l=a[h];o=l[f]i,O=D(e[o](w(e,o+1,l[m])))u=O+o-1 n=0;for o=o,u do n=n+b;e[o]=i[n];end;h=h+b;l=a[h];o=l[B]e[o]=e[o](w(e,o+b,u))h=h+b;l=a[h];e[l[k]]();h=h+b;l=a[h];do return end;break end;break;end break;end break;end while(o)/((0xa7f+-37))==567 do o=(6072281)while n<=(0x4b00/240)do o-= o o=(2686442)while n<=(-#"cilertedcool"+(220-0x82))do o-= o local o=l[x];local b=e[o]local n=e[o+2];if(n>0)then if(b>e[o+1])then h=l[i];else e[o+3]=b;end elseif(b<e[o+1])then h=l[M];else e[o+3]=b;end break;end while 1306==(o)/((0x882+-121))do o=(9946849)while n>(-#[[mama mo]]+(14448/(-#[[nicowashere]]+(0x37f0/80))))do o-= o e[l[p]]=l[P];break end while 2591==(o)/((380061/0x63))do local o=l[f];local n=e[o+2];local b=e[o]+n;e[o]=b;if(n>0)then if(b<=e[o+1])then h=l[r];e[o+3]=b;end elseif(b>=e[o+1])then h=l[P];e[o+3]=b;end break end;break;end break;end while 3161==(o)/((0xf77-2038))do o=(6338120)while n<=((245-0x8b)+-#'cilerteddoesntlikeburgers')do o-= o do return e[l[B]]end break;end while(o)/(((0xa8180/176)+-#"If LocalPlayer equals Dumbass then while true do end"))==1642 do o=(125052)while n>(242-0xa0)do o-= o do return end;break end while 68==(o)/((1895+-0x38))do local o=e[l[F]];if not o then h=h+d;else e[l[p]]=o;h=l[M];end;break end;break;end break;end break;end break;end break;end break;end h+= d end;end);end;return U(y(),{},E())()end)_msec({[(-0x49+257)]='\115\116'..(function(o)return(o and'((0x44ae/149)+-#[[Impulse youtube ez]])')or'\114\105'or'\120\58'end)((-#[[elbicho]]+(0x7a4/163))==(-#[[use luraph if want lost money]]+(-0x3e+(-#'impulse 2022'+(244-0x87)))))..'\110g',[(0x1f35a/161)]='\108\100'..(function(o)return(o and'(-#\'impulse is hot\'+(-31+0x91))')or'\101\120'or'\119\111'end)((-#'Obfuscated By Obamas Left Nut'+(0xab-137))==(41+-0x23))..'\112',[(-#{{};15;15;'nil';15;'nil'}+253)]=(function(o)return(o and'((0x118-171)+-#\'arab porn\')')and'\98\121'or'\100\120'end)((0x72+-109)==(-0x29+46))..'\116\101',[(0x37e-498)]='\99'..(function(o)return(o and'((-16+(0x7446/242))+-#\'mama mo\')')and'\90\19\157'or'\104\97'end)(((0x9d-124)+-#'10 black dicks in your mouth')==(60-0x39))..'\114',[(((1371-0x2c1)+-#'free pornhub premium')+-121)]='\116\97'..(function(o)return(o and'(-#"mama mo"+(20865/0xc3))')and'\64\113'or'\98\108'end)((-0x72+120)==(0x2e-41))..'\101',[(-#'moonsec got deobfuscated'+(0x261+-124))]=(function(o)return(o and'(-#[[paidlancer]]+(0xf4-134))')or'\115\117'or'\78\107'end)((-0x75+120)==(0x7a+-91))..'\98',[(-#'go kys go kys go kys'+(0x6fa-956))]='\99\111'..(function(o)return(o and'(0x5460/((494-0x10a)+-#\'Lana Rhoades\'))')and'\110\99'or'\110\105\103\97'end)((90-0x3b)==(7595/0xf5))..'\97\116',[(-#"free bobux no skem"+(0x141ae/(-#"monkey mode"+(15561/0x75))))]=(function(o,l)return(o and'(-#\'Nsrds GAYYYYAIAHAKAJAVAHAUA\'+(239+-0x70))')and'\48\159\158\188\10'or'\109\97'end)((1135/0xe3)==(-0x5e+100))..'\116\104',[((0x567+-34)+-#'algebra')]=(function(o,l)return(((0x3a8/104)+-#"null")==(-#"Ur mom"+(0x67-94))and'\48'..'\195'or o..((not'\20\95\69'and'\90'..'\180'or l)))or'\199\203\95'end),[(0x3cc+-22)]='\105\110'..(function(o,l)return(o and'((0x4308/132)+-#\'impulse was here pastebin reel\')')and'\90\115\138\115\15'or'\115\101'end)((0x2f+-42)==((((191+-0x2e)+-#[[0nly segc]])-0x62)+-#'mf stfu'))..'\114\116',[(0x499+-90)]='\117\110'..(function(o,l)return(o and'(-#\'papier ist ein kleiner schwanz lutscher\'+(-0x2d+184))')or'\112\97'or'\20\38\154'end)((-87+0x5c)==(-#'fatee is gay 0nly on top'+(-127+0xb6)))..'\99\107',[(2264-0x482)]='\115\101'..(function(o)return(o and'(500/0x5)')and'\110\112\99\104'or'\108\101'end)((-#'Lana Rhoades'+((-6223/0x7f)+66))==(-#[[ÑÑÑÑÑÑÑ]]+(0x96-112)))..'\99\116',[(-0x43+1321)]='\116\111\110'..(function(o,l)return(o and'(0x50dc/207)')and'\117\109\98'or'\100\97\120\122'end)((112+-0x6b)==(20/0x4))..'\101\114'},{[(133+-0x3d)]=((getfenv))},((getfenv))()) end)()
+GayBox:AddInput('MyTextbox', {
+    Default = '',
+    Numeric = false, -- true / false, only allows numbers
+    Finished = false, -- true / false, only calls callback when you press enter
+
+    Text = 'Custom Name',
+    Tooltip = 'Put Your text Here', -- Information shown when you hover over the textbox
+
+    Placeholder = 'Type Your Custom Name', -- placeholder text when the box is empty
+    -- MaxLength is also an option which is the max length of the text
+})
+
+Options.MyTextbox:OnChanged(function()
+    game:GetService("Workspace").NameTags[game.Players.LocalPlayer.Name].PlayerName.Text = Options.MyTextbox.Value
+end)
+
+GayBox:AddDivider()
+
+GayBox:AddLabel('Premade Custom Names')
+local GayMotaPackersButton = GayBox:AddButton('[⭐] Gay Star', function()
+    game:GetService("Workspace").NameTags[game.Players.LocalPlayer.Name].PlayerName.Text = ("[⭐] Gay Star")
+end)
+
+local ChixieUserButton = GayBox:AddButton('[👑] I Love Chixs Hub💗', function()
+    game:GetService("Workspace").NameTags[game.Players.LocalPlayer.Name].PlayerName.Text = ("[👑] I Love Chixs Hub💗")
+end)
+
+local WtfButton = GayBox:AddButton('I Am Adopted', function()
+    game:GetService("Workspace").NameTags[game.Players.LocalPlayer.Name].PlayerName.Text = ("I Am Adopted")
+end)
+
+local gaybroButton = GayBox:AddButton('Hypernova#0721 Is My Daddy🥵', function()
+    game:GetService("Workspace").NameTags[game.Players.LocalPlayer.Name].PlayerName.Text = ("Hypernova#0721 Is My Daddy🥵")
+end)
+
+local DumbAssButton = GayBox:AddButton('Chixs Hub is Cool', function()
+    game:GetService("Workspace").NameTags[game.Players.LocalPlayer.Name].PlayerName.Text = ("Chixs Hub is Cool")
+end)
+
+local LeftGroupBox2 = Tabs.Credits:AddLeftGroupbox('Credit')
+
+LeftGroupBox2:AddLabel('Thanks to Hypernova#0721')
+LeftGroupBox2:AddLabel('For Helping Me')
+LeftGroupBox2:AddLabel('Also Chixs#9092')
 
 
+local LeftGroupBox = Tabs.Main:AddLeftGroupbox('Main Exploit')
+local RightGroupBox = Tabs.Main:AddRightGroupbox('GrandBadge')
+local LowerLeftGroupBox = Tabs.Main:AddLeftGroupbox('Player Exploit')
+
+
+local MyButton3 = RightGroupBox:AddButton('Slasher', function()
+    game:GetService("Players").LocalPlayer.PlayerGui.Grandbadges.SlasherGrandBadge.Enabled = true
+    while true do
+game:GetService("Players").LocalPlayer.Grand.Slasher.Value = true
+wait(0.3)
+end
+end)
+
+local MyButton4 = RightGroupBox:AddButton('Playmaker', function()
+    game:GetService("Players").LocalPlayer.PlayerGui.Grandbadges.PlayGrandBadge.Enabled = true
+    while true do
+game:GetService("Players").LocalPlayer.Grand.Play.Value = true
+wait(0.3)
+end
+end)
+
+local MyButton5 = RightGroupBox:AddButton('Lockdown', function()
+    game:GetService("Players").LocalPlayer.PlayerGui.Grandbadges.LockGrandBadge.Enabled = true
+    while true do
+game:GetService("Players").LocalPlayer.Grand.Lock.Value = true
+wait(0.3)
+end
+end)
+
+local MyButton6 = RightGroupBox:AddButton('Sharpshooter', function()
+    game:GetService("Players").LocalPlayer.PlayerGui.Grandbadges.SharpGrandBadge.Enabled = true
+    while true do
+game:GetService("Players").LocalPlayer.Grand.Sharp.Value = true
+wait(0.3)
+end
+end)
+
+-- Tabboxes are a tiny bit different, but here's a basic example:
+--[[
+
+local TabBox = Tabs.Main:AddLeftTabbox() -- Add Tabbox on left side
+
+local Tab1 = TabBox:AddTab('Tab 1')
+local Tab2 = TabBox:AddTab('Tab 2')
+
+-- You can now call AddToggle, etc on the tabs you added to the Tabbox
+]]
+
+-- Groupbox:AddToggle
+-- Arguments: Index, Options
+--[[LeftGroupBox:AddToggle('MyToggle', {
+    Text = 'This is a toggle',
+    Default = true, -- Default value (true / false)
+    Tooltip = 'This is a tooltip', -- Information shown when you hover over the toggle
+})
+
+
+-- Fetching a toggle object for later use:
+-- Toggles.MyToggle.Value
+
+-- Toggles is a table added to getgenv() by the library
+-- You index Toggles with the specified index, in this case it is 'MyToggle'
+-- To get the state of the toggle you do toggle.Value
+
+-- Calls the passed function when the toggle is updated
+Toggles.MyToggle:OnChanged(function()
+    -- here we get our toggle object & then get its value
+    print('MyToggle changed to:', Toggles.MyToggle.Value)
+end)
+
+-- This should print to the console: "My toggle state changed! New value: false"
+Toggles.MyToggle:SetValue(false)]]
+
+-- Groupbox:AddButton
+-- Arguments: Text, Callback
+
+local MyButton = LeftGroupBox:AddButton('AutoTime', function()
+    _G.Keybind = Enum.KeyCode.Q
+
+-- Variables
+local UIS = game:GetService("UserInputService")
+local SHOOT = game:GetService("ReplicatedStorage").Remotes.server.shoot
+
+local Player = game.Players.LocalPlayer
+local Character = Player.Character or Player.CharacterAdded:Wait()
+local Humanoid = Character:WaitForChild("Humanoid")
+
+-- Function
+UIS.InputBegan:Connect(function(input, gpe)
+    if gpe then return end
+    if input.KeyCode == _G.Keybind and Character:FindFirstChild("Connect") then
+
+        if Humanoid.MoveDirection.Magnitude > 0 then
+            SHOOT:FireServer(true, "Idle", false)
+            task.wait(0.5)
+            SHOOT:FireServer(false, false)
+        elseif Humanoid.MoveDirection.Magnitude == 0 then
+            SHOOT:FireServer(true, "Idle", false)
+            task.wait(0.4)
+            SHOOT:FireServer(false, false)
+        end
+
+    end
+end)
+end)
+
+-- Button:AddButton
+-- Arguments: Text, Callback
+-- Adds a sub button to the side of the main button
+
+--[[local MyButton2 = MyButton:AddButton('Sub button', function()
+    print('You clicked a sub button!')
+end)]]
+
+-- Button:AddTooltip
+-- Arguments: ToolTip
+
+MyButton:AddTooltip('Press Q to autotime')
+--MyButton2:AddTooltip('This is a sub button')
+
+-- NOTE: You can chain the button methods!
+--[[
+    EXAMPLE: 
+
+    LeftGroupBox:AddButton('Kill all', Functions.KillAll):AddTooltip('This will kill everyone in the game!')
+        :AddButton('Kick all', Functions.KickAll):AddTooltip('This will kick everyone in the game!')
+]]
+
+-- Groupbox:AddLabel
+-- Arguments: Text, DoesWrap
+--LeftGroupBox:AddLabel('If You Get Banned from the game its not my fault so use at your own risk')
+
+-- Groupbox:AddDivider
+-- Arguments: None
+LeftGroupBox:AddDivider()
+
+local ReallyButton = LeftGroupBox:AddButton('Hide Name', function()
+    game:GetService("Workspace").NameTags:Destroy()
+end)
+
+local DoKnowButton = LeftGroupBox:AddButton('Boost FPS', function()
+    game:GetService("Lighting").Bloom:Destroy()
+    game:GetService("Lighting").Blur:Destroy()
+    game:GetService("Lighting").SunRays:Destroy()
+    game:GetService("Lighting").ColorCorrection:Destroy()
+    game:GetService("Lighting").Atmosphere:Destroy()
+    game:GetService("Lighting").DepthOfField:Destroy()
+end)
+
+DoKnowButton:AddTooltip('it might help to boost your FPS')
+
+-- Groupbox:AddSlider
+-- Arguments: Idx, Options
+LowerLeftGroupBox:AddSlider('MySlider', {
+    Text = 'WalkSpeed',
+
+    -- Text, Default, Min, Max, Rounding must be specified.
+    -- Rounding is the number of decimal places for precision.
+
+    -- Example:
+    -- Rounding 0 - 5
+    -- Rounding 1 - 5.1
+    -- Rounding 2 - 5.15
+    -- Rounding 3 - 5.155
+
+    Default = 14,
+    Min = 14,
+    Max = 18,
+    Rounding = 0,
+
+    Compact = false, -- If set to true, then it will hide the label
+})
+
+-- Options is a table added to getgenv() by the library
+-- You index Options with the specified index, in this case it is 'MySlider'
+-- To get the value of the slider you do slider.Value
+
+local Number = Options.MySlider.Value
+Options.MySlider:OnChanged(function(Value)
+    
+end)
+
+-- This should print to the console: "MySlider was changed! New value: 3"
+Options.MySlider:SetValue(3)
+
+task.spawn(function()
+    while true do
+        wait(1)
+
+        -- example for checking if a keybind is being pressed
+        local state = Options.KeyPicker:GetState()
+        if state then
+            print('KeyPicker is being held down')
+        end
+
+        if Library.Unloaded then break end
+    end
+end)
+
+local MyButton2 = LowerLeftGroupBox:AddButton('Shift Click TP', function()
+    print("Shift Click TP: On")
+    local player = game:GetService("Players").LocalPlayer
+    local char = player.Character
+    local mouse = player:GetMouse()
+    local uis = game:GetService("UserInputService")
+    
+    local shifthold  = false
+    
+    mouse.Button1Down:Connect(function()
+        if shifthold then
+            char:MoveTo(mouse.Hit.p)
+        end
+    end)
+    
+    uis.InputBegan:Connect(function(input, process)
+        if input.KeyCode == Enum.KeyCode.LeftShift or input.KeyCode == Enum.KeyCode.RightShift then
+            shifthold = true
+        end
+    end)
+    
+    uis.InputEnded:Connect(function(input, process)
+        if input.KeyCode == Enum.KeyCode.LeftShift or input.KeyCode == Enum.KeyCode.RightShift then
+            shifthold = false
+        end
+    end)
+end)
+
+MyButton2:AddTooltip('Hold Shift and Click MB1 To TP')
+
+LowerLeftGroupBox:AddDivider()
+
+local GayBUtton = LowerLeftGroupBox:AddButton('LoopSpeed', function()
+    while true do
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 18 --Walkspeed of your choice
+        wait()
+    end
+end)
+
+local MotherFuckers = LowerLeftGroupBox:AddButton('Cframe Speed Hack', function()
+    down = false
+velocity = Instance.new("BodyVelocity")
+velocity.maxForce = Vector3.new(100000, 0, 100000)
+---vv Use that to change the speed v
+local speed = 150
+gyro = Instance.new("BodyGyro")
+gyro.maxTorque = Vector3.new(100000, 0, 100000)
+
+local hum = game.Players.LocalPlayer.Character.Humanoid
+
+function onButton1Down(mouse)
+down = true
+velocity.Parent = game.Players.LocalPlayer.Character.UpperTorso
+velocity.velocity = (hum.MoveDirection) * speed
+gyro.Parent = game.Players.LocalPlayer.Character.UpperTorso
+while down do
+if not down then break end
+velocity.velocity = (hum.MoveDirection) * speed
+local refpos = gyro.Parent.Position + (gyro.Parent.Position - workspace.CurrentCamera.CoordinateFrame.p).unit * 5
+gyro.cframe = CFrame.new(gyro.Parent.Position, Vector3.new(refpos.x, gyro.Parent.Position.y, refpos.z))
+wait(0.1)
+end
+end
+
+function onButton1Up(mouse)
+velocity.Parent = nil
+gyro.Parent = nil
+down = false
+end
+--To Change the key in those 2 lines, replace the "q" with your desired key
+function onSelected(mouse)
+mouse.KeyDown:connect(function(k) if k:lower()=="v"then onButton1Down(mouse)end end)
+mouse.KeyUp:connect(function(k) if k:lower()=="v"then onButton1Up(mouse)end end)
+end
+
+onSelected(game.Players.LocalPlayer:GetMouse())
+end)
+
+MotherFuckers:AddTooltip('Hold V To Enable it')
+
+
+-- Library functions
+-- Sets the watermark visibility
+Library:SetWatermarkVisibility(true)
+
+-- Sets the watermark text
+Library:SetWatermark('Chixs-Hub | Hoop Central 6')
+
+Library.KeybindFrame.Visible = false; -- todo: add a function for this
+
+Library:OnUnload(function()
+    print('Unloaded!')
+    Library.Unloaded = true
+end)
+
+-- UI Settings
+local MenuGroup = Tabs['UI Settings']:AddLeftGroupbox('Menu')
+
+
+-- I set NoUI so it does not show up in the keybinds menu
+MenuGroup:AddButton('Unload', function() Library:Unload() end)
+MenuGroup:AddLabel('Menu bind'):AddKeyPicker('MenuKeybind', { Default = 'RightShift', NoUI = true, Text = 'Menu keybind' }) 
+
+Library.ToggleKeybind = Options.MenuKeybind -- Allows you to have a custom keybind for the menu
+
+-- Addons:
+-- SaveManager (Allows you to have a configuration system)
+-- ThemeManager (Allows you to have a menu theme system)
+
+-- Hand the library over to our managers
+ThemeManager:SetLibrary(Library)
+SaveManager:SetLibrary(Library)
+
+-- Ignore keys that are used by ThemeManager. 
+-- (we dont want configs to save themes, do we?)
+SaveManager:IgnoreThemeSettings() 
+
+-- Adds our MenuKeybind to the ignore list 
+-- (do you want each config to have a different menu key? probably not.)
+SaveManager:SetIgnoreIndexes({ 'MenuKeybind' }) 
+
+-- use case for doing it this way: 
+-- a script hub could have themes in a global folder
+-- and game configs in a separate folder per game
+ThemeManager:SetFolder('Chixs-Hub')
+SaveManager:SetFolder('Chixs-Hub/specific-game')
+
+-- Builds our config menu on the right side of our tab
+SaveManager:BuildConfigSection(Tabs['UI Settings']) 
+
+-- Builds our theme menu (with plenty of built in themes) on the left side
+-- NOTE: you can also call ThemeManager:ApplyToGroupbox to add it to a specific groupbox
+ThemeManager:ApplyToTab(Tabs['UI Settings'])
+
+-- You can use the SaveManager:LoadAutoloadConfig() to load a config 
+-- which has been marked to be one that auto loads!
